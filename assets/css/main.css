@@ -26,6 +26,19 @@
 		line-height: 1;
 	}
 
+	.image-wrapper {
+		position: relative;
+	}
+	.image-wrapper p {
+		position: absolute;
+		left: 5%;
+		top: 5%;
+		font-size: 150%;
+        font-family: "Times New Roman", Georgia, Serif;
+		padding: 10px;
+		color: #FFF;
+		margin: 5px;
+	}
 	ol, ul {
 		list-style: none;
 	}
@@ -1808,7 +1821,7 @@
 
 	body, input, select, textarea {
 		color: #474747;
-		font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Times New Roman", Georgia, Serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -2060,7 +2073,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+            font-family: "Times New Roman", Georgia, Serif;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2886,7 +2899,7 @@
 					#titleBar .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
+                        font-family: "Times New Roman", Georgia, Serif;
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
